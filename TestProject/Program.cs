@@ -1,6 +1,3 @@
-﻿string firstName = "Bob";
-int widgetsSold = 7;
-Console.WriteLine($"{firstName} sold {widgetsSold} widgets.");
-
-
-//this is test comment
+﻿string value1 = " a";
+string value2 = "A ";
+Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
